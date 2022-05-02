@@ -1,11 +1,8 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      hello World
-    </div>
-  )
+import Widget from "./components/Widget";
+
+export default function App() {
+  return <Widget/>
 }
 
-export default App
